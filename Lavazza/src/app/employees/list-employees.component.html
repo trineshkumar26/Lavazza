@@ -13,6 +13,7 @@
       <td>{{element.company}}</td>
       <td>{{element.email}}</td>
       <td>{{element.isActive == true?'Active':'Inactive'}}</td>
+      <td><button class="btn btn-light" (click)='onSelect(element)'>View </button></td>
     </tr>
     </tbody>
   </table>
